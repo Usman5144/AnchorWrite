@@ -1,0 +1,2 @@
+N,coverage,mean_edit_ratio,median_edit_ratio,mean_D_before,mean_D_after,mean_delta_D,median_delta_D,positive_delta_D_pct,CI_low,CI_high
+300.0,0.44,0.060148662306235216,0.0,5.80409790522222,5.751576300207588,0.05252160501463239,0.0,44.0,0.042128655555720484,0.06353267822660695

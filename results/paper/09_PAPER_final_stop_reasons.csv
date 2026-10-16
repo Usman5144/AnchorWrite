@@ -1,0 +1,9 @@
+regime,stop_reason,count,fraction
+L1,budget target reached,14,0.015555555555555555
+L1,no human-null-improving LLM rewrite passed quality gates within budget,886,0.9844444444444445
+L2,budget target reached,53,0.058888888888888886
+L2,no human-null-improving LLM rewrite passed quality gates within budget,847,0.9411111111111111
+L3,budget target reached,8,0.008888888888888889
+L3,no human-null-improving LLM rewrite passed quality gates within budget,892,0.9911111111111112
+L4,budget target reached,3,0.0033333333333333335
+L4,no human-null-improving LLM rewrite passed quality gates within budget,897,0.9966666666666667

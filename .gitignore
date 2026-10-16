@@ -1,0 +1,56 @@
+# macOS
+.DS_Store
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.env
+.venv/
+venv/
+env/
+
+# Model weights / checkpoints
+models/
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.h5
+*.msgpack
+
+# KenLM
+*.binary
+*.arpa
+
+# Caches
+.cache/
+huggingface/
+transformers/
+
+# Logs / temporary outputs
+*.log
+*.tmp
+*.swp
+temp/
+tmp/
+smoke_*/
+logs_*/
+
+# Development backups
+*.bak
+*.backup
+*.bak_*
+*backup_before*
+
+# Generated outputs
+results/reproduced/
+outputs/

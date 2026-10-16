@@ -1,0 +1,197 @@
+Detector,Method,Layer,AUROC,Source
+Binoculars,Backtranslation,L1,0.8685043209876544,final_metrics
+Binoculars,GramGuard,L1,0.8885611111111111,final_metrics
+Binoculars,Original,L1,0.8957938271604938,final_metrics
+Binoculars,Pegasus,L1,0.9016753086419752,final_metrics
+Binoculars,Qwen Humanize,L1,0.8923425925925927,final_metrics
+Binoculars,Qwen Rewrite,L1,0.8862944444444444,final_metrics
+Binoculars,Backtranslation,L2,0.8361191358024691,final_metrics
+Binoculars,GramGuard,L2,0.8685808641975309,final_metrics
+Binoculars,Original,L2,0.8957938271604938,final_metrics
+Binoculars,Pegasus,L2,0.9005845679012345,final_metrics
+Binoculars,Qwen Humanize,L2,0.8873796296296296,final_metrics
+Binoculars,Qwen Rewrite,L2,0.8764462962962963,final_metrics
+Binoculars,Backtranslation,L3,0.7986938271604939,final_metrics
+Binoculars,GramGuard,L3,0.8456870370370371,final_metrics
+Binoculars,Original,L3,0.8957938271604938,final_metrics
+Binoculars,Pegasus,L3,0.9034691358024692,final_metrics
+Binoculars,Qwen Humanize,L3,0.875346913580247,final_metrics
+Binoculars,Qwen Rewrite,L3,0.8590030864197531,final_metrics
+Binoculars,Backtranslation,L4,0.7857296296296297,final_metrics
+Binoculars,GramGuard,L4,0.8388320987654321,final_metrics
+Binoculars,Original,L4,0.8957938271604938,final_metrics
+Binoculars,Pegasus,L4,0.9046382716049384,final_metrics
+Binoculars,Qwen Humanize,L4,0.867246913580247,final_metrics
+Binoculars,Qwen Rewrite,L4,0.8496283950617285,final_metrics
+DetectGPT,Original,L1,0.5701487654320987,final_metrics
+DetectGPT,Original,L2,0.5701487654320987,final_metrics
+DetectGPT,Original,L3,0.5701487654320987,final_metrics
+DetectGPT,Original,L4,0.5701487654320987,final_metrics
+FastDetect,Backtranslation,L1,0.920641975308642,final_metrics
+FastDetect,GramGuard,L1,0.9446216049382716,raw_scores_recomputed
+FastDetect,Original,L1,0.9676944444444444,final_metrics
+FastDetect,Pegasus,L1,0.947303086419753,final_metrics
+FastDetect,Qwen Humanize,L1,0.945174074074074,final_metrics
+FastDetect,Qwen Rewrite,L1,0.9396734567901236,final_metrics
+FastDetect,Backtranslation,L2,0.8863444444444445,final_metrics
+FastDetect,GramGuard,L2,0.9289567901234568,raw_scores_recomputed
+FastDetect,Original,L2,0.9676944444444444,final_metrics
+FastDetect,Pegasus,L2,0.9391864197530864,final_metrics
+FastDetect,Qwen Humanize,L2,0.9349123456790124,final_metrics
+FastDetect,Qwen Rewrite,L2,0.9236623456790122,final_metrics
+FastDetect,Backtranslation,L3,0.829433950617284,final_metrics
+FastDetect,GramGuard,L3,0.9126475308641975,raw_scores_recomputed
+FastDetect,Original,L3,0.9676944444444444,final_metrics
+FastDetect,Pegasus,L3,0.9301530864197532,final_metrics
+FastDetect,Qwen Humanize,L3,0.919861111111111,final_metrics
+FastDetect,Qwen Rewrite,L3,0.8950956790123457,final_metrics
+FastDetect,Backtranslation,L4,0.8012907407407409,final_metrics
+FastDetect,GramGuard,L4,0.903579012345679,raw_scores_recomputed
+FastDetect,Original,L4,0.9676944444444444,final_metrics
+FastDetect,Pegasus,L4,0.9243932098765432,final_metrics
+FastDetect,Qwen Humanize,L4,0.9102851851851852,final_metrics
+FastDetect,Qwen Rewrite,L4,0.8777314814814814,final_metrics
+GPTNeo-Entropy,Backtranslation,L1,0.5457987654320988,final_metrics
+GPTNeo-Entropy,GramGuard,L1,0.5822987654320988,final_metrics
+GPTNeo-Entropy,Original,L1,0.6042407407407406,final_metrics
+GPTNeo-Entropy,Pegasus,L1,0.5646654320987654,final_metrics
+GPTNeo-Entropy,Qwen Humanize,L1,0.5785740740740741,final_metrics
+GPTNeo-Entropy,Qwen Rewrite,L1,0.5707777777777778,final_metrics
+GPTNeo-Entropy,Backtranslation,L2,0.5081740740740741,final_metrics
+GPTNeo-Entropy,GramGuard,L2,0.5683024691358025,final_metrics
+GPTNeo-Entropy,Original,L2,0.6042407407407406,final_metrics
+GPTNeo-Entropy,Pegasus,L2,0.5480777777777778,final_metrics
+GPTNeo-Entropy,Qwen Humanize,L2,0.5717185185185185,final_metrics
+GPTNeo-Entropy,Qwen Rewrite,L2,0.5558222222222222,final_metrics
+GPTNeo-Entropy,Backtranslation,L3,0.539195061728395,final_metrics
+GPTNeo-Entropy,GramGuard,L3,0.5621506172839507,final_metrics
+GPTNeo-Entropy,Original,L3,0.6042407407407406,final_metrics
+GPTNeo-Entropy,Pegasus,L3,0.5164938271604937,final_metrics
+GPTNeo-Entropy,Qwen Humanize,L3,0.5626765432098766,final_metrics
+GPTNeo-Entropy,Qwen Rewrite,L3,0.5339604938271604,final_metrics
+GPTNeo-Entropy,Backtranslation,L4,0.5609864197530865,final_metrics
+GPTNeo-Entropy,GramGuard,L4,0.5609888888888889,final_metrics
+GPTNeo-Entropy,Original,L4,0.6042407407407406,final_metrics
+GPTNeo-Entropy,Pegasus,L4,0.5036333333333333,final_metrics
+GPTNeo-Entropy,Qwen Humanize,L4,0.5592308641975309,final_metrics
+GPTNeo-Entropy,Qwen Rewrite,L4,0.5244814814814815,final_metrics
+GPTNeo-LogLikelihood,Backtranslation,L1,0.7342864197530864,final_metrics
+GPTNeo-LogLikelihood,GramGuard,L1,0.7684592592592593,final_metrics
+GPTNeo-LogLikelihood,Original,L1,0.7958987654320988,final_metrics
+GPTNeo-LogLikelihood,Pegasus,L1,0.7630506172839506,final_metrics
+GPTNeo-LogLikelihood,Qwen Humanize,L1,0.7665395061728396,final_metrics
+GPTNeo-LogLikelihood,Qwen Rewrite,L1,0.7579222222222222,final_metrics
+GPTNeo-LogLikelihood,Backtranslation,L2,0.6897222222222221,final_metrics
+GPTNeo-LogLikelihood,GramGuard,L2,0.7486098765432099,final_metrics
+GPTNeo-LogLikelihood,Original,L2,0.7958987654320988,final_metrics
+GPTNeo-LogLikelihood,Pegasus,L2,0.7483043209876543,final_metrics
+GPTNeo-LogLikelihood,Qwen Humanize,L2,0.7551000000000001,final_metrics
+GPTNeo-LogLikelihood,Qwen Rewrite,L2,0.7368685185185185,final_metrics
+GPTNeo-LogLikelihood,Backtranslation,L3,0.622016049382716,final_metrics
+GPTNeo-LogLikelihood,GramGuard,L3,0.7306098765432099,final_metrics
+GPTNeo-LogLikelihood,Original,L3,0.7958987654320988,final_metrics
+GPTNeo-LogLikelihood,Pegasus,L3,0.7229111111111112,final_metrics
+GPTNeo-LogLikelihood,Qwen Humanize,L3,0.7368666666666666,final_metrics
+GPTNeo-LogLikelihood,Qwen Rewrite,L3,0.7009518518518517,final_metrics
+GPTNeo-LogLikelihood,Backtranslation,L4,0.5889641975308642,final_metrics
+GPTNeo-LogLikelihood,GramGuard,L4,0.7234864197530864,final_metrics
+GPTNeo-LogLikelihood,Original,L4,0.7958987654320988,final_metrics
+GPTNeo-LogLikelihood,Pegasus,L4,0.7116000000000001,final_metrics
+GPTNeo-LogLikelihood,Qwen Humanize,L4,0.7277172839506172,final_metrics
+GPTNeo-LogLikelihood,Qwen Rewrite,L4,0.6838185185185185,final_metrics
+GPTNeo-LogRank,Backtranslation,L1,0.7404802469135803,final_metrics
+GPTNeo-LogRank,GramGuard,L1,0.7719074074074075,final_metrics
+GPTNeo-LogRank,Original,L1,0.8008993827160494,final_metrics
+GPTNeo-LogRank,Pegasus,L1,0.7679382716049383,final_metrics
+GPTNeo-LogRank,Qwen Humanize,L1,0.7709222222222222,final_metrics
+GPTNeo-LogRank,Qwen Rewrite,L1,0.7607493827160494,final_metrics
+GPTNeo-LogRank,Backtranslation,L2,0.6980086419753087,final_metrics
+GPTNeo-LogRank,GramGuard,L2,0.7505487654320988,final_metrics
+GPTNeo-LogRank,Original,L2,0.8008993827160494,final_metrics
+GPTNeo-LogRank,Pegasus,L2,0.7535024691358025,final_metrics
+GPTNeo-LogRank,Qwen Humanize,L2,0.758874074074074,final_metrics
+GPTNeo-LogRank,Qwen Rewrite,L2,0.7382246913580246,final_metrics
+GPTNeo-LogRank,Backtranslation,L3,0.6352450617283951,final_metrics
+GPTNeo-LogRank,GramGuard,L3,0.731653086419753,final_metrics
+GPTNeo-LogRank,Original,L3,0.8008993827160494,final_metrics
+GPTNeo-LogRank,Pegasus,L3,0.7287086419753086,final_metrics
+GPTNeo-LogRank,Qwen Humanize,L3,0.7393827160493827,final_metrics
+GPTNeo-LogRank,Qwen Rewrite,L3,0.7006000000000001,final_metrics
+GPTNeo-LogRank,Backtranslation,L4,0.6039358024691357,final_metrics
+GPTNeo-LogRank,GramGuard,L4,0.724153086419753,final_metrics
+GPTNeo-LogRank,Original,L4,0.8008993827160494,final_metrics
+GPTNeo-LogRank,Pegasus,L4,0.7179777777777778,final_metrics
+GPTNeo-LogRank,Qwen Humanize,L4,0.7301271604938271,final_metrics
+GPTNeo-LogRank,Qwen Rewrite,L4,0.6820407407407407,final_metrics
+LastDE++,Backtranslation,L1,0.904704938271605,final_metrics
+LastDE++,GramGuard,L1,0.932522222222222,final_metrics
+LastDE++,Original,L1,0.9577407407407408,final_metrics
+LastDE++,Pegasus,L1,0.9338592592592594,final_metrics
+LastDE++,Qwen Humanize,L1,0.934032098765432,final_metrics
+LastDE++,Qwen Rewrite,L1,0.9262074074074074,final_metrics
+LastDE++,Backtranslation,L2,0.8628567901234567,final_metrics
+LastDE++,GramGuard,L2,0.9137987654320988,final_metrics
+LastDE++,Original,L2,0.9577407407407408,final_metrics
+LastDE++,Pegasus,L2,0.9207691358024692,final_metrics
+LastDE++,Qwen Humanize,L2,0.9250925925925926,final_metrics
+LastDE++,Qwen Rewrite,L2,0.9100432098765432,final_metrics
+LastDE++,Backtranslation,L3,0.797425925925926,final_metrics
+LastDE++,GramGuard,L3,0.8999530864197531,final_metrics
+LastDE++,Original,L3,0.9577407407407408,final_metrics
+LastDE++,Pegasus,L3,0.9040962962962964,final_metrics
+LastDE++,Qwen Humanize,L3,0.9092148148148148,final_metrics
+LastDE++,Qwen Rewrite,L3,0.8780703703703705,final_metrics
+LastDE++,Backtranslation,L4,0.7642641975308642,final_metrics
+LastDE++,GramGuard,L4,0.8936111111111111,final_metrics
+LastDE++,Original,L4,0.9577407407407408,final_metrics
+LastDE++,Pegasus,L4,0.8969061728395062,final_metrics
+LastDE++,Qwen Humanize,L4,0.8996592592592592,final_metrics
+LastDE++,Qwen Rewrite,L4,0.8626876543209876,final_metrics
+RoBERTa,Backtranslation,L1,0.7723358024691358,final_metrics
+RoBERTa,GramGuard,L1,0.7643808641975309,final_metrics
+RoBERTa,Original,L1,0.7979512345679012,final_metrics
+RoBERTa,Pegasus,L1,0.7735716049382715,final_metrics
+RoBERTa,Qwen Humanize,L1,0.7623506172839507,final_metrics
+RoBERTa,Qwen Rewrite,L1,0.7420703703703704,final_metrics
+RoBERTa,Backtranslation,L2,0.7836277777777777,final_metrics
+RoBERTa,GramGuard,L2,0.7307901234567902,final_metrics
+RoBERTa,Original,L2,0.7979512345679012,final_metrics
+RoBERTa,Pegasus,L2,0.7846055555555556,final_metrics
+RoBERTa,Qwen Humanize,L2,0.7492098765432098,final_metrics
+RoBERTa,Qwen Rewrite,L2,0.7189512345679012,final_metrics
+RoBERTa,Backtranslation,L3,0.8066098765432099,final_metrics
+RoBERTa,GramGuard,L3,0.7230413580246915,final_metrics
+RoBERTa,Original,L3,0.7979512345679012,final_metrics
+RoBERTa,Pegasus,L3,0.7909728395061728,final_metrics
+RoBERTa,Qwen Humanize,L3,0.7330722222222222,final_metrics
+RoBERTa,Qwen Rewrite,L3,0.6824543209876544,final_metrics
+RoBERTa,Backtranslation,L4,0.8258030864197532,final_metrics
+RoBERTa,GramGuard,L4,0.7191641975308642,final_metrics
+RoBERTa,Original,L4,0.7979512345679012,final_metrics
+RoBERTa,Pegasus,L4,0.8016506172839507,final_metrics
+RoBERTa,Qwen Humanize,L4,0.7258734567901234,final_metrics
+RoBERTa,Qwen Rewrite,L4,0.6705364197530864,final_metrics
+SpecDetect-LRR,Backtranslation,L1,0.7566407407407407,final_metrics
+SpecDetect-LRR,GramGuard,L1,0.779637037037037,final_metrics
+SpecDetect-LRR,Original,L1,0.8101197530864197,final_metrics
+SpecDetect-LRR,Pegasus,L1,0.7802604938271606,final_metrics
+SpecDetect-LRR,Qwen Humanize,L1,0.7814938271604938,final_metrics
+SpecDetect-LRR,Qwen Rewrite,L1,0.7669024691358024,final_metrics
+SpecDetect-LRR,Backtranslation,L2,0.7193098765432098,final_metrics
+SpecDetect-LRR,GramGuard,L2,0.7533395061728394,final_metrics
+SpecDetect-LRR,Original,L2,0.8101197530864197,final_metrics
+SpecDetect-LRR,Pegasus,L2,0.768058024691358,final_metrics
+SpecDetect-LRR,Qwen Humanize,L2,0.7669913580246914,final_metrics
+SpecDetect-LRR,Qwen Rewrite,L2,0.7387061728395061,final_metrics
+SpecDetect-LRR,Backtranslation,L3,0.6699777777777778,final_metrics
+SpecDetect-LRR,GramGuard,L3,0.730346913580247,final_metrics
+SpecDetect-LRR,Original,L3,0.8101197530864197,final_metrics
+SpecDetect-LRR,Pegasus,L3,0.7417814814814815,final_metrics
+SpecDetect-LRR,Qwen Humanize,L3,0.7415370370370369,final_metrics
+SpecDetect-LRR,Qwen Rewrite,L3,0.6921086419753086,final_metrics
+SpecDetect-LRR,Backtranslation,L4,0.6460296296296296,final_metrics
+SpecDetect-LRR,GramGuard,L4,0.7214395061728395,final_metrics
+SpecDetect-LRR,Original,L4,0.8101197530864197,final_metrics
+SpecDetect-LRR,Pegasus,L4,0.7319148148148149,final_metrics
+SpecDetect-LRR,Qwen Humanize,L4,0.730341975308642,final_metrics
+SpecDetect-LRR,Qwen Rewrite,L4,0.6680456790123457,final_metrics

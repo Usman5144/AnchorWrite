@@ -1,0 +1,4 @@
+Detector,status,human_file,original_file
+LastDE++,missing human/original raw score,,
+Binoculars,missing human/original raw score,,
+SpecDetect-LRR,"score/orientation failure: SpecDetect-LRR: best raw Original AUROC does not reproduce canonical value. column=ai_lrr, raw=0.608965, canonical=0.810120, diff=0.201154",/datadisk_1/GramGuard_NeoGPU/evaluation_baselines/detector_results/specdetect/qwen_humanize_L3_lrr_raw_scores.csv,/datadisk_1/GramGuard_NeoGPU/evaluation_baselines/detector_results/specdetect/original_lrr_raw_scores.csv

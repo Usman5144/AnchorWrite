@@ -1,0 +1,80 @@
+GRAMGUARD-V3 FINAL DETECTOR BOOTSTRAP REPORT
+==============================================================================================================
+Bootstrap replicates: 2000
+Delta_AUROC = Original AUROC - Condition AUROC.
+Positive Delta_AUROC therefore means reduced detector AUROC.
+
+ORIGINAL -> CONDITION
+==============================================================================================================
+      Detector        Method Layer  N_AI  N_human  Original_AUROC  Condition_AUROC  Delta_AUROC  Delta_CI_low  Delta_CI_high  P_delta_gt_0
+    FastDetect     GramGuard    L1   900      900          0.9677           0.9446       0.0231        0.0190         0.0272        1.0000
+    FastDetect     GramGuard    L2   900      900          0.9677           0.9290       0.0387        0.0327         0.0451        1.0000
+    FastDetect     GramGuard    L3   900      900          0.9677           0.9126       0.0550        0.0471         0.0629        1.0000
+    FastDetect     GramGuard    L4   900      900          0.9677           0.9036       0.0641        0.0552         0.0729        1.0000
+    FastDetect       Pegasus    L1   900      900          0.9677           0.9473       0.0204        0.0167         0.0246        1.0000
+    FastDetect       Pegasus    L2   900      900          0.9677           0.9392       0.0285        0.0235         0.0336        1.0000
+    FastDetect       Pegasus    L3   900      900          0.9677           0.9302       0.0375        0.0312         0.0442        1.0000
+    FastDetect       Pegasus    L4   900      900          0.9677           0.9244       0.0433        0.0363         0.0503        1.0000
+    FastDetect Qwen Humanize    L1   900      900          0.9677           0.9452       0.0225        0.0185         0.0270        1.0000
+    FastDetect Qwen Humanize    L2   900      900          0.9677           0.9349       0.0328        0.0271         0.0382        1.0000
+    FastDetect Qwen Humanize    L3   900      900          0.9677           0.9199       0.0478        0.0405         0.0556        1.0000
+    FastDetect Qwen Humanize    L4   900      900          0.9677           0.9103       0.0574        0.0492         0.0659        1.0000
+GPTNeo-LogRank     GramGuard    L1   900      900          0.8009           0.7719       0.0290        0.0261         0.0319        1.0000
+GPTNeo-LogRank     GramGuard    L2   900      900          0.8009           0.7505       0.0504        0.0459         0.0549        1.0000
+GPTNeo-LogRank     GramGuard    L3   895      900          0.8014           0.4389       0.3625        0.3393         0.3856        1.0000
+GPTNeo-LogRank     GramGuard    L4   900      900          0.8009           0.7242       0.0767        0.0703         0.0831        1.0000
+GPTNeo-LogRank       Pegasus    L1   900      900          0.8009           0.7679       0.0330        0.0299         0.0362        1.0000
+GPTNeo-LogRank       Pegasus    L2   900      900          0.8009           0.7535       0.0474        0.0434         0.0516        1.0000
+GPTNeo-LogRank       Pegasus    L3   900      900          0.8009           0.7287       0.0722        0.0660         0.0783        1.0000
+GPTNeo-LogRank       Pegasus    L4   900      900          0.8009           0.7180       0.0829        0.0757         0.0902        1.0000
+GPTNeo-LogRank Qwen Humanize    L1   900      900          0.8009           0.7709       0.0300        0.0273         0.0330        1.0000
+GPTNeo-LogRank Qwen Humanize    L2   900      900          0.8009           0.7589       0.0420        0.0385         0.0459        1.0000
+GPTNeo-LogRank Qwen Humanize    L3   900      900          0.8009           0.7394       0.0615        0.0564         0.0671        1.0000
+GPTNeo-LogRank Qwen Humanize    L4   900      900          0.8009           0.7301       0.0708        0.0648         0.0770        1.0000
+       RoBERTa     GramGuard    L1   900      900          0.7979           0.7644       0.0336        0.0257         0.0414        1.0000
+       RoBERTa     GramGuard    L2   900      900          0.7979           0.7308       0.0672        0.0553         0.0792        1.0000
+       RoBERTa     GramGuard    L3   900      900          0.7979           0.7231       0.0749        0.0624         0.0884        1.0000
+       RoBERTa     GramGuard    L4   900      900          0.7979           0.7192       0.0788        0.0650         0.0924        1.0000
+       RoBERTa       Pegasus    L1   900      900          0.7979           0.7559       0.0421        0.0103         0.0733        0.9925
+       RoBERTa       Pegasus    L2   900      900          0.7979           0.7524       0.0455        0.0129         0.0787        0.9955
+       RoBERTa       Pegasus    L3   900      900          0.7979           0.7504       0.0475        0.0148         0.0798        0.9980
+       RoBERTa       Pegasus    L4   900      900          0.7979           0.7460       0.0520        0.0173         0.0860        0.9995
+       RoBERTa Qwen Humanize    L1   900      900          0.7979           0.7713       0.0266       -0.0058         0.0590        0.9475
+       RoBERTa Qwen Humanize    L2   900      900          0.7979           0.7844       0.0135       -0.0182         0.0456        0.7885
+       RoBERTa Qwen Humanize    L3   900      900          0.7979           0.8061      -0.0081       -0.0382         0.0223        0.2990
+       RoBERTa Qwen Humanize    L4   900      900          0.7979           0.8126      -0.0146       -0.0442         0.0154        0.1755
+
+MATCHED BASELINE - GRAMGUARD DIFFERENCES
+==============================================================================================================
+      Detector Layer      Baseline  N_AI  N_human  AUROC_A  AUROC_B  Difference_A_minus_B  Difference_CI_low  Difference_CI_high  P_A_gt_B
+    FastDetect    L1       Pegasus   900      900   0.9473   0.9446                0.0027            -0.0007              0.0061    0.9390
+    FastDetect    L2       Pegasus   900      900   0.9392   0.9290                0.0102             0.0058              0.0149    1.0000
+    FastDetect    L3       Pegasus   900      900   0.9302   0.9126                0.0175             0.0114              0.0239    1.0000
+    FastDetect    L4       Pegasus   900      900   0.9244   0.9036                0.0208             0.0143              0.0275    1.0000
+    FastDetect    L1 Qwen Humanize   900      900   0.9452   0.9446                0.0006            -0.0024              0.0035    0.6540
+    FastDetect    L2 Qwen Humanize   900      900   0.9349   0.9290                0.0060             0.0015              0.0099    0.9960
+    FastDetect    L3 Qwen Humanize   900      900   0.9199   0.9126                0.0072             0.0014              0.0131    0.9920
+    FastDetect    L4 Qwen Humanize   900      900   0.9103   0.9036                0.0067             0.0004              0.0132    0.9800
+GPTNeo-LogRank    L1       Pegasus   900      900   0.7679   0.7719               -0.0040            -0.0063             -0.0017    0.0000
+GPTNeo-LogRank    L2       Pegasus   900      900   0.7535   0.7505                0.0030            -0.0000              0.0061    0.9725
+GPTNeo-LogRank    L3       Pegasus   895      900   0.7292   0.4389                0.2903             0.2685              0.3114    1.0000
+GPTNeo-LogRank    L4       Pegasus   900      900   0.7180   0.7242               -0.0062            -0.0110             -0.0014    0.0060
+GPTNeo-LogRank    L1 Qwen Humanize   900      900   0.7709   0.7719               -0.0010            -0.0032              0.0010    0.1780
+GPTNeo-LogRank    L2 Qwen Humanize   900      900   0.7589   0.7505                0.0083             0.0057              0.0112    1.0000
+GPTNeo-LogRank    L3 Qwen Humanize   895      900   0.7398   0.4389                0.3010             0.2779              0.3246    1.0000
+GPTNeo-LogRank    L4 Qwen Humanize   900      900   0.7301   0.7242                0.0060             0.0024              0.0100    1.0000
+       RoBERTa    L1       Pegasus   900      900   0.7559   0.7644               -0.0085            -0.0415              0.0265    0.3210
+       RoBERTa    L2       Pegasus   900      900   0.7524   0.7308                0.0216            -0.0159              0.0559    0.8880
+       RoBERTa    L3       Pegasus   900      900   0.7504   0.7231                0.0273            -0.0094              0.0620    0.9345
+       RoBERTa    L4       Pegasus   900      900   0.7460   0.7192                0.0268            -0.0100              0.0608    0.9270
+       RoBERTa    L1 Qwen Humanize   900      900   0.7713   0.7644                0.0070            -0.0256              0.0412    0.6695
+       RoBERTa    L2 Qwen Humanize   900      900   0.7844   0.7308                0.0536             0.0207              0.0860    0.9995
+       RoBERTa    L3 Qwen Humanize   900      900   0.8061   0.7231                0.0830             0.0501              0.1147    1.0000
+       RoBERTa    L4 Qwen Humanize   900      900   0.8126   0.7192                0.0934             0.0604              0.1266    1.0000
+
+AUDIT / MISSING RAW FILES
+==============================================================================================================
+      Detector                                                                                                                                                                status                                                                                                        human_file                                                                                             original_file
+      LastDE++                                                                                                                                      missing human/original raw score                                                                                                                                                                                                                            
+    Binoculars                                                                                                                                      missing human/original raw score                                                                                                                                                                                                                            
+SpecDetect-LRR score/orientation failure: SpecDetect-LRR: best raw Original AUROC does not reproduce canonical value. column=ai_lrr, raw=0.608965, canonical=0.810120, diff=0.201154 /datadisk_1/GramGuard_NeoGPU/evaluation_baselines/detector_results/specdetect/qwen_humanize_L3_lrr_raw_scores.csv /datadisk_1/GramGuard_NeoGPU/evaluation_baselines/detector_results/specdetect/original_lrr_raw_scores.csv

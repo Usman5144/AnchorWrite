@@ -1,0 +1,97 @@
+item,detector,layer,method,present
+main_detector_cell,FastDetect,L1,Original,True
+main_detector_cell,FastDetect,L1,Qwen Humanize,True
+main_detector_cell,FastDetect,L1,Pegasus,True
+main_detector_cell,FastDetect,L1,GramGuard,True
+main_detector_cell,FastDetect,L2,Original,True
+main_detector_cell,FastDetect,L2,Qwen Humanize,True
+main_detector_cell,FastDetect,L2,Pegasus,True
+main_detector_cell,FastDetect,L2,GramGuard,True
+main_detector_cell,FastDetect,L3,Original,True
+main_detector_cell,FastDetect,L3,Qwen Humanize,True
+main_detector_cell,FastDetect,L3,Pegasus,True
+main_detector_cell,FastDetect,L3,GramGuard,True
+main_detector_cell,FastDetect,L4,Original,True
+main_detector_cell,FastDetect,L4,Qwen Humanize,True
+main_detector_cell,FastDetect,L4,Pegasus,True
+main_detector_cell,FastDetect,L4,GramGuard,True
+main_detector_cell,LastDE++,L1,Original,True
+main_detector_cell,LastDE++,L1,Qwen Humanize,True
+main_detector_cell,LastDE++,L1,Pegasus,True
+main_detector_cell,LastDE++,L1,GramGuard,True
+main_detector_cell,LastDE++,L2,Original,True
+main_detector_cell,LastDE++,L2,Qwen Humanize,True
+main_detector_cell,LastDE++,L2,Pegasus,True
+main_detector_cell,LastDE++,L2,GramGuard,True
+main_detector_cell,LastDE++,L3,Original,True
+main_detector_cell,LastDE++,L3,Qwen Humanize,True
+main_detector_cell,LastDE++,L3,Pegasus,True
+main_detector_cell,LastDE++,L3,GramGuard,True
+main_detector_cell,LastDE++,L4,Original,True
+main_detector_cell,LastDE++,L4,Qwen Humanize,True
+main_detector_cell,LastDE++,L4,Pegasus,True
+main_detector_cell,LastDE++,L4,GramGuard,True
+main_detector_cell,Binoculars,L1,Original,True
+main_detector_cell,Binoculars,L1,Qwen Humanize,True
+main_detector_cell,Binoculars,L1,Pegasus,True
+main_detector_cell,Binoculars,L1,GramGuard,True
+main_detector_cell,Binoculars,L2,Original,True
+main_detector_cell,Binoculars,L2,Qwen Humanize,True
+main_detector_cell,Binoculars,L2,Pegasus,True
+main_detector_cell,Binoculars,L2,GramGuard,True
+main_detector_cell,Binoculars,L3,Original,True
+main_detector_cell,Binoculars,L3,Qwen Humanize,True
+main_detector_cell,Binoculars,L3,Pegasus,True
+main_detector_cell,Binoculars,L3,GramGuard,True
+main_detector_cell,Binoculars,L4,Original,True
+main_detector_cell,Binoculars,L4,Qwen Humanize,True
+main_detector_cell,Binoculars,L4,Pegasus,True
+main_detector_cell,Binoculars,L4,GramGuard,True
+main_detector_cell,RoBERTa,L1,Original,True
+main_detector_cell,RoBERTa,L1,Qwen Humanize,True
+main_detector_cell,RoBERTa,L1,Pegasus,True
+main_detector_cell,RoBERTa,L1,GramGuard,True
+main_detector_cell,RoBERTa,L2,Original,True
+main_detector_cell,RoBERTa,L2,Qwen Humanize,True
+main_detector_cell,RoBERTa,L2,Pegasus,True
+main_detector_cell,RoBERTa,L2,GramGuard,True
+main_detector_cell,RoBERTa,L3,Original,True
+main_detector_cell,RoBERTa,L3,Qwen Humanize,True
+main_detector_cell,RoBERTa,L3,Pegasus,True
+main_detector_cell,RoBERTa,L3,GramGuard,True
+main_detector_cell,RoBERTa,L4,Original,True
+main_detector_cell,RoBERTa,L4,Qwen Humanize,True
+main_detector_cell,RoBERTa,L4,Pegasus,True
+main_detector_cell,RoBERTa,L4,GramGuard,True
+main_detector_cell,SpecDetect-LRR,L1,Original,True
+main_detector_cell,SpecDetect-LRR,L1,Qwen Humanize,True
+main_detector_cell,SpecDetect-LRR,L1,Pegasus,True
+main_detector_cell,SpecDetect-LRR,L1,GramGuard,True
+main_detector_cell,SpecDetect-LRR,L2,Original,True
+main_detector_cell,SpecDetect-LRR,L2,Qwen Humanize,True
+main_detector_cell,SpecDetect-LRR,L2,Pegasus,True
+main_detector_cell,SpecDetect-LRR,L2,GramGuard,True
+main_detector_cell,SpecDetect-LRR,L3,Original,True
+main_detector_cell,SpecDetect-LRR,L3,Qwen Humanize,True
+main_detector_cell,SpecDetect-LRR,L3,Pegasus,True
+main_detector_cell,SpecDetect-LRR,L3,GramGuard,True
+main_detector_cell,SpecDetect-LRR,L4,Original,True
+main_detector_cell,SpecDetect-LRR,L4,Qwen Humanize,True
+main_detector_cell,SpecDetect-LRR,L4,Pegasus,True
+main_detector_cell,SpecDetect-LRR,L4,GramGuard,True
+main_detector_cell,GPTNeo-LogRank,L1,Original,True
+main_detector_cell,GPTNeo-LogRank,L1,Qwen Humanize,True
+main_detector_cell,GPTNeo-LogRank,L1,Pegasus,True
+main_detector_cell,GPTNeo-LogRank,L1,GramGuard,True
+main_detector_cell,GPTNeo-LogRank,L2,Original,True
+main_detector_cell,GPTNeo-LogRank,L2,Qwen Humanize,True
+main_detector_cell,GPTNeo-LogRank,L2,Pegasus,True
+main_detector_cell,GPTNeo-LogRank,L2,GramGuard,True
+main_detector_cell,GPTNeo-LogRank,L3,Original,True
+main_detector_cell,GPTNeo-LogRank,L3,Qwen Humanize,True
+main_detector_cell,GPTNeo-LogRank,L3,Pegasus,True
+main_detector_cell,GPTNeo-LogRank,L3,GramGuard,True
+main_detector_cell,GPTNeo-LogRank,L4,Original,True
+main_detector_cell,GPTNeo-LogRank,L4,Qwen Humanize,True
+main_detector_cell,GPTNeo-LogRank,L4,Pegasus,True
+main_detector_cell,GPTNeo-LogRank,L4,GramGuard,True

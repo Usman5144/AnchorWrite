@@ -1,0 +1,9 @@
+resource,path,exists
+Quality,/datadisk_1/GramGuard_NeoGPU/evaluation_baselines/experiment_records/2026-09-12_final_run/MASTER_quality_FULL_metrics.csv,True
+FastDetect,/datadisk_1/GramGuard_NeoGPU/evaluation_baselines/detector_results/fastdetect/fastdetect_FINAL_metrics.csv,True
+LastDE++,/datadisk_1/GramGuard_NeoGPU/evaluation_baselines/detector_results/lastde/lastde_FINAL_metrics.csv,True
+Binoculars,/datadisk_1/GramGuard_NeoGPU/evaluation_baselines/detector_results/binoculars/binoculars_FINAL_metrics.csv,True
+RoBERTa,/datadisk_1/GramGuard_NeoGPU/evaluation_baselines/detector_results/roberta/roberta_FINAL_metrics.csv,True
+GPTNeo,/datadisk_1/GramGuard_NeoGPU/evaluation_baselines/detector_results/gptneo/gptneo_FINAL_fixed_direction_metrics.csv,True
+DetectGPT,/datadisk_1/GramGuard_NeoGPU/evaluation_baselines/detector_results/detectgpt/detectgpt_FINAL_metrics.csv,True
+SpecDetect-LRR,/datadisk_1/GramGuard_NeoGPU/evaluation_baselines/detector_results/specdetect/specdetect_lrr_FINAL_metrics.csv,True

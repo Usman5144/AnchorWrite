@@ -1,0 +1,20 @@
+# AnchorWrite
+# Recorded main experiment environment: Python 3.10
+# Original Linux PyTorch build: 2.5.1+cu121
+# CUDA-specific installation instructions will be documented separately.
+
+# Recorded primary environment
+torch==2.5.1
+transformers==4.51.3
+sentence-transformers>=4.1,<4.2
+numpy==2.2.6
+pandas==2.3.3
+scikit-learn==1.7.2
+
+# Required dependencies; original exact versions not recorded
+kenlm
+nltk
+bert-score
+tqdm
+accelerate
+sentencepiece

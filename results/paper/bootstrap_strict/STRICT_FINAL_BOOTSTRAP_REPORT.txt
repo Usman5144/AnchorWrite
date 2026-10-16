@@ -1,0 +1,139 @@
+GRAMGUARD-V3 STRICT FINAL DETECTOR BOOTSTRAP
+==============================================================================================================
+Bootstrap replicates: 2000
+Canonical verification tolerance: 0.0005
+Every accepted raw-score condition must reproduce canonical AUROC before its CI is reported.
+
+ACCEPTED ORIGINAL -> CONDITION RESULTS
+==============================================================================================================
+      Detector        Method Layer  N_AI  N_human  Condition_AUROC  Canonical_AUROC  Delta_AUROC  Delta_CI_low  Delta_CI_high  P_delta_gt_0
+    FastDetect     GramGuard    L1   900      900           0.9446           0.9446       0.0231        0.0190         0.0272        1.0000
+    FastDetect     GramGuard    L2   900      900           0.9290           0.9290       0.0387        0.0327         0.0451        1.0000
+    FastDetect     GramGuard    L3   900      900           0.9126           0.9126       0.0550        0.0471         0.0629        1.0000
+    FastDetect     GramGuard    L4   900      900           0.9036           0.9036       0.0641        0.0552         0.0729        1.0000
+    FastDetect       Pegasus    L1   900      900           0.9473           0.9473       0.0204        0.0167         0.0246        1.0000
+    FastDetect       Pegasus    L2   900      900           0.9392           0.9392       0.0285        0.0235         0.0336        1.0000
+    FastDetect       Pegasus    L3   900      900           0.9302           0.9302       0.0375        0.0312         0.0442        1.0000
+    FastDetect       Pegasus    L4   900      900           0.9244           0.9244       0.0433        0.0363         0.0503        1.0000
+    FastDetect Qwen Humanize    L1   900      900           0.9452           0.9452       0.0225        0.0185         0.0270        1.0000
+    FastDetect Qwen Humanize    L2   900      900           0.9349           0.9349       0.0328        0.0271         0.0382        1.0000
+    FastDetect Qwen Humanize    L3   900      900           0.9199           0.9199       0.0478        0.0405         0.0556        1.0000
+    FastDetect Qwen Humanize    L4   900      900           0.9103           0.9103       0.0574        0.0492         0.0659        1.0000
+GPTNeo-LogRank     GramGuard    L1   900      900           0.7719           0.7719       0.0290        0.0261         0.0319        1.0000
+GPTNeo-LogRank     GramGuard    L2   900      900           0.7505           0.7505       0.0504        0.0459         0.0549        1.0000
+GPTNeo-LogRank     GramGuard    L3   900      900           0.7317           0.7317       0.0692        0.0637         0.0752        1.0000
+GPTNeo-LogRank     GramGuard    L4   900      900           0.7242           0.7242       0.0767        0.0703         0.0831        1.0000
+GPTNeo-LogRank       Pegasus    L1   900      900           0.7679           0.7679       0.0330        0.0299         0.0362        1.0000
+GPTNeo-LogRank       Pegasus    L2   900      900           0.7535           0.7535       0.0474        0.0434         0.0516        1.0000
+GPTNeo-LogRank       Pegasus    L3   900      900           0.7287           0.7287       0.0722        0.0660         0.0783        1.0000
+GPTNeo-LogRank       Pegasus    L4   900      900           0.7180           0.7180       0.0829        0.0757         0.0902        1.0000
+GPTNeo-LogRank Qwen Humanize    L1   900      900           0.7709           0.7709       0.0300        0.0273         0.0330        1.0000
+GPTNeo-LogRank Qwen Humanize    L2   900      900           0.7589           0.7589       0.0420        0.0385         0.0459        1.0000
+GPTNeo-LogRank Qwen Humanize    L3   900      900           0.7394           0.7394       0.0615        0.0564         0.0671        1.0000
+GPTNeo-LogRank Qwen Humanize    L4   900      900           0.7301           0.7301       0.0708        0.0648         0.0770        1.0000
+       RoBERTa     GramGuard    L1   900      900           0.7644           0.7644       0.0336        0.0257         0.0414        1.0000
+       RoBERTa     GramGuard    L2   900      900           0.7308           0.7308       0.0672        0.0553         0.0792        1.0000
+       RoBERTa     GramGuard    L3   900      900           0.7230           0.7230       0.0749        0.0624         0.0884        1.0000
+       RoBERTa     GramGuard    L4   900      900           0.7192           0.7192       0.0788        0.0650         0.0924        1.0000
+       RoBERTa       Pegasus    L1   900      900           0.7736           0.7736       0.0244        0.0169         0.0318        1.0000
+       RoBERTa       Pegasus    L2   900      900           0.7846           0.7846       0.0133        0.0040         0.0235        0.9945
+       RoBERTa       Pegasus    L3   900      900           0.7910           0.7910       0.0070       -0.0050         0.0185        0.8805
+       RoBERTa       Pegasus    L4   900      900           0.8017           0.8017      -0.0037       -0.0165         0.0094        0.2780
+       RoBERTa Qwen Humanize    L1   900      900           0.7624           0.7624       0.0356        0.0269         0.0441        1.0000
+       RoBERTa Qwen Humanize    L2   900      900           0.7492           0.7492       0.0487        0.0383         0.0594        1.0000
+       RoBERTa Qwen Humanize    L3   900      900           0.7331           0.7331       0.0649        0.0517         0.0778        1.0000
+       RoBERTa Qwen Humanize    L4   900      900           0.7259           0.7259       0.0721        0.0587         0.0856        1.0000
+SpecDetect-LRR     GramGuard    L1   900      900           0.7796           0.7796       0.0305        0.0268         0.0341        1.0000
+SpecDetect-LRR     GramGuard    L2   900      900           0.7533           0.7533       0.0568        0.0511         0.0625        1.0000
+SpecDetect-LRR     GramGuard    L3   900      900           0.7303           0.7303       0.0798        0.0729         0.0869        1.0000
+SpecDetect-LRR     GramGuard    L4   900      900           0.7214           0.7214       0.0887        0.0811         0.0969        1.0000
+SpecDetect-LRR       Pegasus    L1   900      900           0.7803           0.7803       0.0299        0.0060         0.0525        0.9915
+SpecDetect-LRR       Pegasus    L2   900      900           0.7681           0.7681       0.0421        0.0182         0.0667        1.0000
+SpecDetect-LRR       Pegasus    L3   900      900           0.7418           0.7418       0.0683        0.0434         0.0942        1.0000
+SpecDetect-LRR       Pegasus    L4   900      900           0.7319           0.7319       0.0782        0.0527         0.1037        1.0000
+SpecDetect-LRR Qwen Humanize    L1   900      900           0.7815           0.7815       0.0286        0.0051         0.0518        0.9930
+SpecDetect-LRR Qwen Humanize    L2   900      900           0.7670           0.7670       0.0431        0.0189         0.0657        1.0000
+SpecDetect-LRR Qwen Humanize    L3   900      900           0.7415           0.7415       0.0686        0.0435         0.0923        1.0000
+SpecDetect-LRR Qwen Humanize    L4   900      900           0.7303           0.7303       0.0798        0.0547         0.1045        1.0000
+
+MATCHED BASELINE VS GRAMGUARD
+==============================================================================================================
+ Baseline_AUROC  GramGuard_AUROC  Difference_Baseline_minus_GramGuard  Difference_CI_low  Difference_CI_high  P_Baseline_gt_GramGuard       Detector Layer      Baseline
+         0.9473           0.9446                               0.0027            -0.0007              0.0061                   0.9390     FastDetect    L1       Pegasus
+         0.9392           0.9290                               0.0102             0.0058              0.0149                   1.0000     FastDetect    L2       Pegasus
+         0.9302           0.9126                               0.0175             0.0114              0.0239                   1.0000     FastDetect    L3       Pegasus
+         0.9244           0.9036                               0.0208             0.0143              0.0275                   1.0000     FastDetect    L4       Pegasus
+         0.9452           0.9446                               0.0006            -0.0024              0.0035                   0.6540     FastDetect    L1 Qwen Humanize
+         0.9349           0.9290                               0.0060             0.0015              0.0099                   0.9960     FastDetect    L2 Qwen Humanize
+         0.9199           0.9126                               0.0072             0.0014              0.0131                   0.9920     FastDetect    L3 Qwen Humanize
+         0.9103           0.9036                               0.0067             0.0004              0.0132                   0.9800     FastDetect    L4 Qwen Humanize
+         0.7679           0.7719                              -0.0040            -0.0063             -0.0017                   0.0000 GPTNeo-LogRank    L1       Pegasus
+         0.7535           0.7505                               0.0030            -0.0000              0.0061                   0.9725 GPTNeo-LogRank    L2       Pegasus
+         0.7287           0.7317                              -0.0029            -0.0073              0.0012                   0.0845 GPTNeo-LogRank    L3       Pegasus
+         0.7180           0.7242                              -0.0062            -0.0110             -0.0014                   0.0060 GPTNeo-LogRank    L4       Pegasus
+         0.7709           0.7719                              -0.0010            -0.0032              0.0010                   0.1780 GPTNeo-LogRank    L1 Qwen Humanize
+         0.7589           0.7505                               0.0083             0.0057              0.0112                   1.0000 GPTNeo-LogRank    L2 Qwen Humanize
+         0.7394           0.7317                               0.0077             0.0043              0.0110                   1.0000 GPTNeo-LogRank    L3 Qwen Humanize
+         0.7301           0.7242                               0.0060             0.0024              0.0100                   1.0000 GPTNeo-LogRank    L4 Qwen Humanize
+         0.7736           0.7644                               0.0092             0.0004              0.0180                   0.9785        RoBERTa    L1       Pegasus
+         0.7846           0.7308                               0.0538             0.0412              0.0661                   1.0000        RoBERTa    L2       Pegasus
+         0.7910           0.7230                               0.0679             0.0533              0.0820                   1.0000        RoBERTa    L3       Pegasus
+         0.8017           0.7192                               0.0825             0.0660              0.0986                   1.0000        RoBERTa    L4       Pegasus
+         0.7624           0.7644                              -0.0020            -0.0104              0.0063                   0.3390        RoBERTa    L1 Qwen Humanize
+         0.7492           0.7308                               0.0184             0.0084              0.0299                   1.0000        RoBERTa    L2 Qwen Humanize
+         0.7331           0.7230                               0.0100            -0.0023              0.0219                   0.9445        RoBERTa    L3 Qwen Humanize
+         0.7259           0.7192                               0.0067            -0.0074              0.0199                   0.8210        RoBERTa    L4 Qwen Humanize
+
+STRICT AUDIT
+==============================================================================================================
+      Detector        Method Layer                                                                                                         Status  Raw_AUROC  Canonical_AUROC         Diff
+    FastDetect     GramGuard    L1                                                                                                           PASS   0.944622         0.944622 0.000000e+00
+    FastDetect     GramGuard    L2                                                                                                           PASS   0.928957         0.928957 0.000000e+00
+    FastDetect     GramGuard    L3                                                                                                           PASS   0.912648         0.912648 1.110223e-16
+    FastDetect     GramGuard    L4                                                                                                           PASS   0.903579         0.903579 0.000000e+00
+    FastDetect Qwen Humanize    L1                                                                                                           PASS   0.945174         0.945174 0.000000e+00
+    FastDetect Qwen Humanize    L2                                                                                                           PASS   0.934912         0.934912 0.000000e+00
+    FastDetect Qwen Humanize    L3                                                                                                           PASS   0.919861         0.919861 0.000000e+00
+    FastDetect Qwen Humanize    L4                                                                                                           PASS   0.910285         0.910285 0.000000e+00
+    FastDetect       Pegasus    L1                                                                                                           PASS   0.947303         0.947303 0.000000e+00
+    FastDetect       Pegasus    L2                                                                                                           PASS   0.939186         0.939186 1.110223e-16
+    FastDetect       Pegasus    L3                                                                                                           PASS   0.930153         0.930153 1.110223e-16
+    FastDetect       Pegasus    L4                                                                                                           PASS   0.924393         0.924393 1.110223e-16
+       RoBERTa     GramGuard    L1                                                                                                           PASS   0.764381         0.764381 0.000000e+00
+       RoBERTa     GramGuard    L2                                                                                                           PASS   0.730790         0.730790 0.000000e+00
+       RoBERTa     GramGuard    L3                                                                                                           PASS   0.723041         0.723041 0.000000e+00
+       RoBERTa     GramGuard    L4                                                                                                           PASS   0.719164         0.719164 0.000000e+00
+       RoBERTa Qwen Humanize    L1                                                                                                           PASS   0.762351         0.762351 0.000000e+00
+       RoBERTa Qwen Humanize    L2                                                                                                           PASS   0.749210         0.749210 0.000000e+00
+       RoBERTa Qwen Humanize    L3                                                                                                           PASS   0.733072         0.733072 0.000000e+00
+       RoBERTa Qwen Humanize    L4                                                                                                           PASS   0.725873         0.725873 0.000000e+00
+       RoBERTa       Pegasus    L1                                                                                                           PASS   0.773572         0.773572 0.000000e+00
+       RoBERTa       Pegasus    L2                                                                                                           PASS   0.784606         0.784606 0.000000e+00
+       RoBERTa       Pegasus    L3                                                                                                           PASS   0.790973         0.790973 0.000000e+00
+       RoBERTa       Pegasus    L4                                                                                                           PASS   0.801651         0.801651 0.000000e+00
+GPTNeo-LogRank     GramGuard    L1                                                                                                           PASS   0.771907         0.771907 0.000000e+00
+GPTNeo-LogRank     GramGuard    L2                                                                                                           PASS   0.750549         0.750549 0.000000e+00
+GPTNeo-LogRank     GramGuard    L3                                                                                                           PASS   0.731653         0.731653 0.000000e+00
+GPTNeo-LogRank     GramGuard    L4                                                                                                           PASS   0.724153         0.724153 0.000000e+00
+GPTNeo-LogRank Qwen Humanize    L1                                                                                                           PASS   0.770922         0.770922 0.000000e+00
+GPTNeo-LogRank Qwen Humanize    L2                                                                                                           PASS   0.758874         0.758874 0.000000e+00
+GPTNeo-LogRank Qwen Humanize    L3                                                                                                           PASS   0.739383         0.739383 0.000000e+00
+GPTNeo-LogRank Qwen Humanize    L4                                                                                                           PASS   0.730127         0.730127 0.000000e+00
+GPTNeo-LogRank       Pegasus    L1                                                                                                           PASS   0.767938         0.767938 0.000000e+00
+GPTNeo-LogRank       Pegasus    L2                                                                                                           PASS   0.753502         0.753502 0.000000e+00
+GPTNeo-LogRank       Pegasus    L3                                                                                                           PASS   0.728709         0.728709 0.000000e+00
+GPTNeo-LogRank       Pegasus    L4                                                                                                           PASS   0.717978         0.717978 0.000000e+00
+SpecDetect-LRR     GramGuard    L1                                                                                                           PASS   0.779637         0.779637 0.000000e+00
+SpecDetect-LRR     GramGuard    L2                                                                                                           PASS   0.753340         0.753340 0.000000e+00
+SpecDetect-LRR     GramGuard    L3                                                                                                           PASS   0.730347         0.730347 0.000000e+00
+SpecDetect-LRR     GramGuard    L4                                                                                                           PASS   0.721440         0.721440 0.000000e+00
+SpecDetect-LRR Qwen Humanize    L1                                                                                                           PASS   0.781494         0.781494 0.000000e+00
+SpecDetect-LRR Qwen Humanize    L2                                                                                                           PASS   0.766991         0.766991 0.000000e+00
+SpecDetect-LRR Qwen Humanize    L3                                                                                                           PASS   0.741537         0.741537 0.000000e+00
+SpecDetect-LRR Qwen Humanize    L4                                                                                                           PASS   0.730342         0.730342 0.000000e+00
+SpecDetect-LRR       Pegasus    L1                                                                                                           PASS   0.780260         0.780260 0.000000e+00
+SpecDetect-LRR       Pegasus    L2                                                                                                           PASS   0.768058         0.768058 0.000000e+00
+SpecDetect-LRR       Pegasus    L3                                                                                                           PASS   0.741781         0.741781 0.000000e+00
+SpecDetect-LRR       Pegasus    L4                                                                                                           PASS   0.731915         0.731915 0.000000e+00
+      LastDE++           ALL L1-L4 POINT ESTIMATES AVAILABLE; NO PER-SAMPLE RAW-SCORE CSV FOUND IN CURRENT INVENTORY; BOOTSTRAP CI NOT FABRICATED        NaN              NaN          NaN
+    Binoculars           ALL L1-L4 POINT ESTIMATES AVAILABLE; NO PER-SAMPLE RAW-SCORE CSV FOUND IN CURRENT INVENTORY; BOOTSTRAP CI NOT FABRICATED        NaN              NaN          NaN
